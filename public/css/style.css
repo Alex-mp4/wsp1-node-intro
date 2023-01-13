@@ -1,0 +1,25 @@
+body {
+    background-color: red;
+}
+
+nav {
+    height: 2rem;
+    width: 100%;
+    background-color: aqua;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+a:hover {
+    background-color: aqua;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    transform: rotate(3deg);
+    transform: rotate(0.3rad);
+    transform: rotate(3grad);
+    transform: rotate(.03turn);
+}
